@@ -1,2 +1,3 @@
 
-int somar(int n1, int n2);
+void numero_vogais(char texto[]);
+

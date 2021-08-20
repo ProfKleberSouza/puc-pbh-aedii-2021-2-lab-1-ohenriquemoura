@@ -1,7 +1,13 @@
 
 #include "functions.h"
 
-int somar(int n1, int n2){
+int menor(int v[], int n){
+    int lowest=v[0];
+    for(int i=0;i<n;i++){
+      if(v[i]<lowest){
+        lowest=v[i];
+      }
 
-    return n1+n2;
+    }
+    return lowest;
 }
